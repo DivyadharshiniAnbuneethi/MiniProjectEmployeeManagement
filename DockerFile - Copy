@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 9090
 ADD target/MiniProjectEmployeeManagement.jar MiniProjectEmployeeManagement.jar
-ENTRYPOINT ["java","-jar","/MiniProjectEmployeeManagement-sample.jar"]
+ENTRYPOINT ["java","-jar","/MiniProjectEmployeeManagement.jar"]
